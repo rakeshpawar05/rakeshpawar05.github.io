@@ -14,7 +14,9 @@ html {
     background: black;
     height: 60px;
 }
-
+#menu-icon {
+    color: white;
+}
 
 .logo {
     color: white;
