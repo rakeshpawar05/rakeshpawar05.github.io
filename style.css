@@ -79,7 +79,6 @@ html {
     border-radius: 50%;
 }
 
-
 @media (max-width: 768px) {
     .navbar-collapse {
         background: black;
@@ -91,7 +90,8 @@ html {
         
     }
     .introduction {
-        padding-top: 50px;
+        padding-top: 0px;
+        padding-left: 0px;
     }
     .info {
         display: flex;
@@ -158,7 +158,7 @@ html {
     .navbar {
         background: linear-gradient(to right, black 50%, white 0%);
     } 
-
+    
     .logo {
         color: white;
         padding-left: 50px;
@@ -167,7 +167,7 @@ html {
         margin-left: auto;
         padding-right: 50px;
     }
-
+    
     .items {
         color: black;
         padding: 18px;
@@ -178,5 +178,14 @@ html {
         background: black;
         margin: 0px;
         
+    }
+}
+@media (min-width:100px) and (max-width:700px) {
+    .info {
+        padding: 0px;
+    }
+    .profile {
+        height: 150px;
+        width: 150px;
     }
 }
