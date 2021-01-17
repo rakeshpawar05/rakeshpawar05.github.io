@@ -78,11 +78,43 @@ html {
     border: 1px solid black;
     border-radius: 50%;
 }
-.education {
+.education, .skills {
     padding: 100px 150px 0px 150px;
+}
+.skills {
+    padding-top: 70px;
 }
 .edu-table {
     padding-top: 30px;
+}
+.education p {
+    line-height: 20px;
+}
+.skill-item {
+    padding-top: 30px;
+}
+.others {
+    text-align: center;
+    padding: 30px 0 0px 0;
+}
+.skill-others {
+    padding-bottom: 20px;
+}
+.pills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pill {
+    background: #dddddd;
+    border: none;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
 @media (min-width: 1200px) {
@@ -127,7 +159,7 @@ html {
         margin: 0px;
         
     }
-    .education {
+    .education, .skills {
         padding: 100px 70px 0px 70px;
     }
 }
@@ -148,7 +180,7 @@ html {
         padding: 0px 20px;  
     }
     .introduction {
-        padding-top: 70px;
+        padding-top: 100px;
     }
     .info {
         padding-left: 50px;
@@ -163,7 +195,7 @@ html {
         height: 250px;
         width: 250px;
     }
-    .education {
+    .education, .skills {
         padding: 100px 50px 0px 50px;
     }
 }
@@ -200,7 +232,7 @@ html {
     .pic {
         height: 250px;
     }
-    .education {
+    .education, .skills {
         padding: 100px 10px 0px 10px;
     }
 }
