@@ -82,10 +82,13 @@ html {
     padding: 100px 150px 0px 150px;
     margin: 0px;
 }
-.skills, .projects, .achivements {
+.cover {
+    padding: 10px 0 10px 150px;
+}
+.skills, .projects, .achivements, .about {
     padding-top: 70px;
 }
-.edu-table {
+.edu-table, .lang-table {
     padding-top: 30px;
 }
 .education p {
@@ -123,6 +126,30 @@ html {
     align-items: flex-end;
     padding-bottom: 10px;
 }
+.footer{
+    height: 100px;
+    background: black;
+    color: white;
+    margin-top: auto;
+}
+.logo {
+    
+}
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
 
 
 @media (min-width: 1200px) {
@@ -171,6 +198,10 @@ html {
         padding: 100px 70px 0px 70px;
         margin: 0px;
     }
+    .cover {
+        padding: 10px 0 10px 70px;
+        margin: 0px;
+    }
 }
 @media (min-width:768px) and (max-width: 960px) {
     .items:hover , .items:active{
@@ -206,6 +237,10 @@ html {
     }
     .education, .skills, .projects, .achivements, .about {
         padding: 100px 50px 0px 50px;
+        margin: 0px;
+    }
+    .cover {
+        padding: 10px 0 10px 50px;
         margin: 0px;
     }
 }
@@ -248,5 +283,9 @@ html {
     }
     .proj-img {
         display: none;
+    }
+    .cover {
+        padding: 10px 0 10px 20px;
+        margin: 0px;
     }
 }
