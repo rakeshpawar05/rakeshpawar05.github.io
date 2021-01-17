@@ -43,7 +43,7 @@ html {
 .introduction {
     padding-top: 100px;
     margin: 0px;
-    height: 400px;
+    height: auto;
 }
 .info {
     padding-left: 150px;
@@ -78,10 +78,48 @@ html {
     border: 1px solid black;
     border-radius: 50%;
 }
+.education {
+    padding: 100px 150px 0px 150px;
+}
+.edu-table {
+    padding-top: 30px;
+}
 
-@media (max-width: 768px) {
-    .navbar-collapse {
+@media (min-width: 1200px) {
+    .navbar {
+        background: linear-gradient(to right, black 50%, white 0%);
+    } 
+    
+    .logo {
+        color: white;
+        padding-left: 50px;
+    }
+    .navbar-nav { 
+        margin-left: auto;
+        padding-right: 50px;
+    }
+    
+    .items {
+        color: black;
+        padding: 18px;
+    }
+    
+    .items:hover , .items:active{
+        color: white;
         background: black;
+        margin: 0px;
+        
+    }
+}
+@media (min-width:960px) and (max-width:1200px) {
+    .info {
+        padding-left: 70px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .description, .email, .number, .github, .resume {
+        font-size: 13px;
     }
     .items:hover , .items:active{
         color: black;
@@ -89,28 +127,11 @@ html {
         margin: 0px;
         
     }
-    .introduction {
-        padding-top: 0px;
-        padding-left: 0px;
-    }
-    .info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo {
-        color: white;
-        padding-left: 20px;
-        font-size: 30px;
-    }
-    .description {
-        padding: 0px 50px;
-    }
-    .pic {
-        height: 250px;
+    .education {
+        padding: 100px 70px 0px 70px;
     }
 }
-@media (max-width: 960px) {
+@media (min-width:768px) and (max-width: 960px) {
     .items:hover , .items:active{
         color: black;
         background: white;
@@ -142,46 +163,44 @@ html {
         height: 250px;
         width: 250px;
     }
-}
-@media (min-width:960px) and (max-width:1200px) {
-    .info {
-        padding-left: 70px;
-    }
-    .name {
-        font-size: 40px;
-    }
-    .description, .email, .number, .github, .resume {
-        font-size: 13px;
+    .education {
+        padding: 100px 50px 0px 50px;
     }
 }
-@media (min-width: 1200px) {
-    .navbar {
-        background: linear-gradient(to right, black 50%, white 0%);
-    } 
-    
-    .logo {
-        color: white;
-        padding-left: 50px;
-    }
-    .navbar-nav { 
-        margin-left: auto;
-        padding-right: 50px;
-    }
-    
-    .items {
-        color: black;
-        padding: 18px;
-    }
-    
-    .items:hover , .items:active{
-        color: white;
+@media (min-width:300px) and (max-width: 768px) {
+    .navbar-collapse {
         background: black;
+    }
+    .items:hover , .items:active{
+        color: black;
+        background: white;
         margin: 0px;
         
     }
-}
-@media (min-width:100px) and (max-width:700px) {
+    .introduction {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
     .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0px;
+        padding-top: 0px;
+        height: 700px;
+    }
+    .logo {
+        color: white;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .description {
+        padding: 0px 50px;
+    }
+    .pic {
+        height: 250px;
+    }
+    .education {
+        padding: 100px 10px 0px 10px;
     }
 }
