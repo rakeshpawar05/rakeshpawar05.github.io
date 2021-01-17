@@ -8,12 +8,12 @@ html {
 
 .container-fluid {
     padding: 0px;
+    height: auto;
 }
-
 .navbar {
     background: black;
     height: 80px;
-    padding: 0px;
+    padding: 0px;  
 }
 #menu-icon {
     color: white;
@@ -36,9 +36,50 @@ html {
     color: white;
 }
 
-span {
+.menu-icon {
     margin-left: auto;
 }
+
+.introduction {
+    padding-top: 100px;
+    margin: 0px;
+    height: 400px;
+}
+.info {
+    padding-left: 150px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    font-size: 50px;
+}
+.description, .email, .number, .github, .resume {
+    font-size: 15px;
+}
+.resume {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    border: none;
+}
+.pic {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    height: 320px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
 @media (max-width: 768px) {
     .navbar-collapse {
         background: black;
@@ -49,14 +90,24 @@ span {
         margin: 0px;
         
     }
+    .introduction {
+        padding-top: 50px;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .logo {
         color: white;
         padding-left: 20px;
         font-size: 30px;
     }
-    .navbar-nav { 
-        margin-left: auto;
-        padding: 0px 20px;  
+    .description {
+        padding: 0px 50px;
+    }
+    .pic {
+        height: 250px;
     }
 }
 @media (max-width: 960px) {
@@ -74,6 +125,33 @@ span {
     .navbar-nav { 
         margin-left: auto;
         padding: 0px 20px;  
+    }
+    .introduction {
+        padding-top: 70px;
+    }
+    .info {
+        padding-left: 50px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .description, .email, .number, .github, .resume {
+        font-size: 13px;
+    }
+    .profile {
+        height: 250px;
+        width: 250px;
+    }
+}
+@media (min-width:960px) and (max-width:1200px) {
+    .info {
+        padding-left: 70px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .description, .email, .number, .github, .resume {
+        font-size: 13px;
     }
 }
 @media (min-width: 1200px) {
