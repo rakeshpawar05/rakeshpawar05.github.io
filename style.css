@@ -78,7 +78,7 @@ html {
     border: 1px solid black;
     border-radius: 50%;
 }
-.education, .skills, .projects, .achivements {
+.education, .skills, .projects, .achivements, .about {
     padding: 100px 150px 0px 150px;
     margin: 0px;
 }
@@ -91,7 +91,7 @@ html {
 .education p {
     line-height: 20px;
 }
-.skill-item, .proj-name, .achive-name {
+.skill-item, .proj-name, .achive-name, .about-subheading {
     padding-top: 30px;
 }
 .others {
@@ -167,7 +167,7 @@ html {
         margin: 0px;
         
     }
-    .education, .skills, .projects, .achivements {
+    .education, .skills, .projects, .achivements, .about {
         padding: 100px 70px 0px 70px;
         margin: 0px;
     }
@@ -204,7 +204,7 @@ html {
         height: 250px;
         width: 250px;
     }
-    .education, .skills, .projects, .achivements {
+    .education, .skills, .projects, .achivements, .about {
         padding: 100px 50px 0px 50px;
         margin: 0px;
     }
@@ -242,7 +242,7 @@ html {
     .pic {
         height: 250px;
     }
-    .education, .skills, .projects, .achivements {
+    .education, .skills, .projects, .achivements, .about {
         padding: 100px 10px 0px 10px;
         margin: 0px;
     }
