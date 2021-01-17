@@ -15,6 +15,10 @@ html {
     height: 80px;
     padding: 0px;  
 }
+.navbar-toggler {
+    padding-right: 10px;
+    margin-right: 40px;
+}
 #menu-icon {
     color: white;
 }
